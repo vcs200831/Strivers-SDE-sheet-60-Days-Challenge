@@ -22,7 +22,7 @@ class Solution:
                 
                 if total % 2:
                     return min(Aright,Bright)
-                return (max(Aleft,Bleft)+ min(Aright,Bright)) /  2
+                return (max(Aleft,Bleft) + min(Aright,Bright)) /  2
             
             elif Aleft > Bright:
                 r = i - 1
