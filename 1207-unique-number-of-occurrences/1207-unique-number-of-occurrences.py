@@ -6,5 +6,5 @@ class Solution:
                 hmap[i] += 1
             else:
                 hmap[i] = 1
-        return len(hmap) == len(set(hmap.values()))
+        return len(hmap) == len(set(hmap.values())) # if the set length is equal to the map length it implies counts are unique.
       
